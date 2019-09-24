@@ -11,8 +11,8 @@ from .constans import USER_DEFAULT_NICK_NAME, USER_DEFAULT_LOCATION
 
 class BaseModel(object):
     create_time = db.Column(db.DateTime, default=datetime.now)  # 记录创建时间
-    update_time = db.Column(db.DateTime, default=datetime, onupdate=datetime.now)  # 记录更新时间
-    delete_time = db.Column(db.DateTime, default=datetime, onupdate=datetime.now)  # 记录删除时间
+    update_time = db.Column(db.DateTime, default=datetime.now, onupdate=datetime.now)  # 记录更新时间
+    delete_time = db.Column(db.DateTime, default=datetime.now, onupdate=datetime.now)  # 记录删除时间
 
 
 # 用户和粉丝的虚拟表
@@ -61,6 +61,17 @@ class User(BaseModel, db.Model):
         default='Aliens'
     )
 
+    @property
+    def password(self):
+        raise AttributeError(u"不能访问该属性")
+
+    @password.setter
+    def password(self, value):
+        self.password_hash = generate_password_hash(value)
+
+    def check_password(self, passwd):
+        return check_password_hash(self.password_hash, passwd)
+
 
 class Post(BaseModel, db.Model):
     __tablename__ = 'post'
@@ -85,7 +96,7 @@ class Comment(BaseModel, db.Model):
     post_id = db.Column(db.Integer, db.ForeignKey('post.id'), nullable=False)
     content = db.Column(db.Text, nullable=False)
     parent_id = db.Column(db.Integer, db.ForeignKey('comment.id'))  # 父评论id
-    parent = db.relationship('Comment', remote_side=[0])  # 自关联
+    parent = db.relationship('Comment', remote_side=[id])  # 自关联
     like_count = db.Column(db.Integer, default=0)  # 点赞数
 
 

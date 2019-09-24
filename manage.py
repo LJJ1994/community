@@ -28,7 +28,7 @@ def createsuperuser(name, password):
     """使用manager装饰器使这个函数可以以命令行的形式执行, dest的参数名必须和函数的形式参数名一致"""
 
     if not all([name, password]):
-        print("参数不足")
+        print("参数不足!")
 
     user = User()
     user.nick_name = name

@@ -12,6 +12,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_wtf.csrf import CSRFProtect, generate_csrf
 from redis import StrictRedis
 from config import config
+from community.utils.common import ReConvertor
 
 # 制定session保存的位置，一般保存在redis数据库
 # 注意使用的是扩展中的session，并不是flask中的session，需要添加扩展
@@ -83,11 +84,13 @@ def create_app(config_name):
                     3- 因为我们登陆注册中使用的是ajax请求，并不是表单，所以不需要在表单中添加{{XXX}}，需要在ajax中设置header
         上面的方法也可行，就是meta的那种方法，二选一
     """
-    CSRFProtect(app)
-
     # 设置session保存制定位置
     Session(app)
 
+    CSRFProtect(app)
+
+    # 注册re转换器
+    app.url_map.converters["re"] = ReConvertor
     # 在蓝图之前添加自定义过滤器,过滤器的import也是何时注册何时调用，否则会循环依赖错误
     # 初始化数据库, 需要被manage.py外界访问，需要提取到外面
     # 在flask中的很多扩展中都可以先初始化对象，然后再去调用init.app方法去关联app
@@ -97,10 +100,10 @@ def create_app(config_name):
     # 设置全局的404页面,errorhandler去捕获制定状态吗的错误
     # from info.utils.common import user_login_data
 
-    @app.errorhandler(404)
-    # @user_login_data
-    def page_not_found(error):
-        pass
+    # @app.errorhandler(404)
+    # # @user_login_data
+    # def page_not_found(error):
+    #     pass
         # user = g.user
         # data = {"user_info": user.to_dict() if user else None}
         # return render_template('news/404.html', data=data)
@@ -118,19 +121,7 @@ def create_app(config_name):
     # 注册蓝图, 如果下面的import放在上面的话，那么卡启动的时候就会报错
     # 因为一个包去导入另一个包然会最后一个views.py去导入redis_store的时候就发现当前的文件还有有执行到redis_store = None
     # 这个循环导入，就会还没定义这个redis_store，因此以后何时注册蓝图，何时导入这个蓝图，蓝图的导入不要放在顶部
-    # from info.modules.index import index_blue
-    # app.register_blueprint(index_blue)
-    #
-    # from info.modules.passport import passport_blue
-    # app.register_blueprint(passport_blue)
-    #
-    # from info.modules.news import news_blue
-    # app.register_blueprint(news_blue)
-    #
-    # from info.modules.profile import profile_blue
-    # app.register_blueprint(profile_blue)
-    #
-    # from info.modules.admin import admin_blue
-    # app.register_blueprint(admin_blue)
+    from community.api import api
+    app.register_blueprint(api, url_prefix="/api")
 
     return app

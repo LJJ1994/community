@@ -22,6 +22,7 @@ class Config(object):
     REDIS_HOST = "127.0.0.1"
     REDIS_PORT = 6379
 
+    JSON_AS_ASCII = False
     """
         session的建立过程：
         真正的session建立cookie注入是来自于这个方法CSRFProtect(app)，或者在session['xxx']=yyy赋值的时候也能建立
