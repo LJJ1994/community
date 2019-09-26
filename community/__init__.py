@@ -6,6 +6,7 @@ pymysql.install_as_MySQLdb()
 
 import logging
 from logging.handlers import RotatingFileHandler
+from flask_cors import CORS
 
 from flask import Flask, render_template, g
 from flask_sqlalchemy import SQLAlchemy
@@ -19,7 +20,7 @@ from community.utils.common import ReConvertor
 from flask_session import Session
 
 db = SQLAlchemy()
-
+cors = CORS()
 # redis_store: StrictRedis = None
 redis_store = None  # type: StrictRedis
 
@@ -44,7 +45,7 @@ def create_app(config_name):
 
     # 初始化FLASK对象
     # 因为静态文件static目录和当前app的__name__同级，所以不需要额外设置，templates也是
-    app = Flask(__name__)
+    app = Flask(__name__, static_folder="./dist/static", template_folder="./dist")
 
     # 加载配置
     app.config.from_object(config[config_name])
@@ -85,9 +86,10 @@ def create_app(config_name):
         上面的方法也可行，就是meta的那种方法，二选一
     """
     # 设置session保存制定位置
-    Session(app)
+    # Session(app)
 
-    CSRFProtect(app)
+    # 处理csrf
+    # CSRFProtect(app)
 
     # 注册re转换器
     app.url_map.converters["re"] = ReConvertor
@@ -109,19 +111,22 @@ def create_app(config_name):
         # return render_template('news/404.html', data=data)
 
     # 响应客户端的时候添加上token到cookie
-    @app.after_request
-    def after_request(response):
-        # 通过flask-wtf中生成csrf
-        csrf_token = generate_csrf()
-        # 设置cookie
-        response.set_cookie("csrf_token", csrf_token)
-        # 返回被装饰后的response
-        return response
+    # @app.after_request
+    # def after_request(response):
+    #     # 通过flask-wtf中生成csrf
+    #     csrf_token = generate_csrf()
+    #     # 设置cookie
+    #     response.set_cookie("csrf_token", csrf_token)
+    #     # 返回被装饰后的response
+    #     return response
 
     # 注册蓝图, 如果下面的import放在上面的话，那么卡启动的时候就会报错
     # 因为一个包去导入另一个包然会最后一个views.py去导入redis_store的时候就发现当前的文件还有有执行到redis_store = None
     # 这个循环导入，就会还没定义这个redis_store，因此以后何时注册蓝图，何时导入这个蓝图，蓝图的导入不要放在顶部
     from community.api import api
     app.register_blueprint(api, url_prefix="/api")
+
+    # 处理跨域
+    cors.init_app(app)
 
     return app

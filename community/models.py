@@ -1,9 +1,10 @@
 __author__ = 'LJJ'
 __date__ = '2019/9/19 上午9:36'
 
-from datetime import datetime
+from datetime import datetime, timedelta
+from flask import current_app
 from werkzeug.security import generate_password_hash, check_password_hash
-
+import jwt
 
 from . import db
 from .constans import USER_DEFAULT_NICK_NAME, USER_DEFAULT_LOCATION
@@ -24,8 +25,8 @@ tb_user_follows = db.Table(
 
 
 # 用户和帖子的虚拟表
-tb_user_collection = db.Table(
-    "user_collection",
+tb_user_post = db.Table(
+    "user_post",
     db.Column('user_id', db.Integer, db.ForeignKey('cm_user.id'), primary_key=True),  # 用户编号
     db.Column('post_id', db.Integer, db.ForeignKey('post.id'), primary_key=True),  # 帖子编号
     db.Column('create_time', db.DateTime, default=datetime.now),  # 帖子创建时间
@@ -37,15 +38,19 @@ class User(BaseModel, db.Model):
     __tablename__ = 'cm_user'
 
     id = db.Column(db.Integer, primary_key=True)
-    nick_name = db.Column(db.String(32), unique=True, default=USER_DEFAULT_NICK_NAME, nullable=False)
+    nick_name = db.Column(db.String(32))
     password_hash = db.Column(db.String(128), nullable=False)
     phone = db.Column(db.String(11), unique=True, nullable=False)
     signature = db.Column(db.String(512))
     location = db.Column(db.String(20), default=USER_DEFAULT_LOCATION)
     score = db.Column(db.Integer, default=0)
+    like = db.Column(db.Integer, default=0)  # 用户发表的帖子, 评论, 回复 所获得的点赞的总数
     avatar_url = db.Column(db.String(512))
-    collection_post = db.relationship('Post', secondary=tb_user_collection, lazy='dynamic')
+    collection_post = db.relationship('Post', secondary=tb_user_post, lazy='dynamic')
     post_list = db.relationship('Post', backref='user', lazy='dynamic')
+    last_seen = db.Column(db.DateTime(), default=datetime.now)
+    followers_count = db.Column(db.Integer, default=0)  # 粉丝数
+    followed_count = db.Column(db.Integer, default=0)  # 关注数
     followers = db.relationship('User',
                                 secondary=tb_user_follows,
                                 primaryjoin=id == tb_user_follows.c.followed_id,
@@ -71,6 +76,50 @@ class User(BaseModel, db.Model):
 
     def check_password(self, passwd):
         return check_password_hash(self.password_hash, passwd)
+
+    def update_token(self):
+        self.last_seen = datetime.now()
+        db.session.add(self)
+
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "username": self.nick_name,
+            "phone": self.phone,
+            "signature": self.signature,
+            "location": self.location,
+            "score": self.score,
+            "avatar_url": "",
+            "gender": self.gender,
+            "like": self.like,
+            "followers_count": self.followers_count if self.followers_count else 0,
+            "followed_count": self.followed_count if self.followed_count else 0
+        }
+
+    # 给登录成功的用户颁发有时限的token
+    def get_jwt(self, expire=60*60):
+        now = datetime.now()
+        payload = {
+            'user_id': self.id,
+            'name': self.nick_name,
+            'exp': now + timedelta(expire),
+            'iat': now
+        }
+        return jwt.encode(payload, current_app.config['SECRET_KEY'], algorithm='HS256').decode('utf-8')
+
+    # 验证token
+    @staticmethod
+    def verify_jwt(token):
+        try:
+            payload = jwt.decode(
+                token,
+                current_app.config['SECRET_KEY'],
+            algorithms=['HS256'])
+        except (jwt.exceptions.ExpiredSignatureError,
+                jwt.exceptions.InvalidSignatureError,
+                jwt.exceptions.DecodeError) as e:
+            return None
+        return User.query.get(payload.get('user_id'))
 
 
 class Post(BaseModel, db.Model):

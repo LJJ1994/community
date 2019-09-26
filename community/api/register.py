@@ -14,6 +14,7 @@ from community.models import User
 from community.api import api
 from community import constans
 from community.task.sms.tasks import send_sms
+from .auth import token_auth
 
 
 # "/api/v1.0/sms_codes/<mobile>"
@@ -78,9 +79,7 @@ def register():
         请求的参数: 手机号,　短信验证码,　密码, 确认密码
     """
     # 获取请求的json, 返回字典
-    import json
     req_dict = request.get_json()
-    print(req_dict)
     mobile = req_dict.get("mobile")
     sms_code = str(req_dict.get("sms_code"))
     password = req_dict.get("password")
@@ -122,7 +121,7 @@ def register():
         return jsonify(errno=RET.DATAERR, errmsg="短信验证码错误")
 
     # 保存用户的数据到数据库
-    user = User(phone=mobile)
+    user = User(phone=mobile, nick_name="笨笨猪" + str(random.randint(1, 99999)))
     # 在这里设置password,password在数据库模型用已经定义好,包括加密处理,这里的password是一个类属性，可以set,也可以get
     user.password = password
 
@@ -149,18 +148,25 @@ def register():
     return jsonify(errno=RET.OK, errmsg="注册成功")
 
 
+@api.route('/test', methods=['POST'])
+@token_auth.login_required
+def test():
+    return jsonify(code=200, msg='测试token')
+
+
 @api.route("/users/signin", methods=["POST"])
 def login():
     """
     用户登录
     :param 手机号, 密码, json
     """
-
-    # 获取参数
     req_dict = request.get_json()
+    if req_dict is None:
+        return jsonify(errno=RET.PARAMERR, errmsg="无参数")
     mobile = req_dict.get("mobile")
     password = req_dict.get("password")
 
+    print('mobile: %s password: %s' % (mobile, password))
     # 参数完整性校验
     if not all([mobile, password]):
         return jsonify(errno=RET.PARAMERR, errmsg="参数不完整")
@@ -202,29 +208,77 @@ def login():
         return jsonify(errno=RET.DATAERR, errmsg="用户名或密码错误")
 
     # 如果校验相同,则保存在session中
-    session["name"] = mobile
-    session["mobile"] = mobile
-    session["user_id"] = user.id
+    # session["name"] = mobile
+    # session["mobile"] = mobile
+    # session["user_id"] = user.id
 
-    return jsonify(errno=RET.OK, errmsg="登录成功")
-
-
-@api.route("/session", methods=["GET"])
-def check_login():
-    """检查用户登录状态"""
-
-    # 通过检查session里面的用户名name是否存在
-    name = session.get("name")
-    if name is not None:
-        return jsonify(errno=RET.OK, errmsg="true", data={"name": name})
-    else:
-        return jsonify(errno=RET.SESSIONERR, errmsg="false")
+    access_token = user.get_jwt()
+    data = {
+        "access_token": access_token,
+        "data": user.to_dict()
+    }
+    print(access_token)
+    return jsonify(errno=RET.OK, errmsg="登录成功", data=data)
 
 
-@api.route("/session", methods=["DELETE"])
-def logout():
-    """登出操作"""
+@api.route("/users/<int:user_id>", methods=["GET"])
+def get_user_info(user_id):
+    """
+    获取用户信息
+    :param user_id:
+    :return: json
+    """
+    if user_id is None:
+        return jsonify(errno=RET.PARAMERR, errmsg="参数不存在", data="")
+    try:
+        user = User.query.filter_by(id=user_id).first()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.PARAMERR, errmsg="数据库查询失败", data="")
 
-    # 清楚session数据
-    session.clear()
-    return jsonify(errno=RET.OK, errmsg="OK")
+    data = user.to_dict()
+    return jsonify(errno=RET.OK, errmsg="成功", data=data)
+
+
+@api.route("/users/<int:user_id>/edit", methods=['POST'])
+@token_auth.login_required
+def user_edit_profile(user_id):
+    """
+    修改用户信息
+    :param user_id:
+    :arg { username, signature, value }  # value的值, 1：男 2：女 3：外星人
+    :return:
+    """
+    import json
+    try:
+        user = User.query.filter_by(id=int(user_id)).first()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.USERERR, errmsg="用户参数错误", data='')
+
+    req_dict = request.get_json()
+    username = req_dict.get('username')
+    signature = req_dict.get("signature")
+    value = str(req_dict.get('value'))
+    print(username, signature, value)
+    if not all([username, signature, value]):
+        return jsonify(errno=RET.PARAMERR, errmsg="参数不完整", data='')
+
+    gender_dict = {
+        '1': 'MAN',
+        '2': 'WOMAN',
+        '3': 'Aliens'
+    }
+
+    user.nick_name = username
+    user.signature = signature
+    user.gender = gender_dict.get(value)
+
+    try:
+        db.session.commit()
+    except Exception as e:
+        db.session.rollback()
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DATAERR, errmsg='保存数据库失败', data='')
+    return jsonify(errno=RET.OK, errmsg='操作成功', data=user.to_dict())
+

@@ -1,10 +1,10 @@
 __author__ = 'LJJ'
 __date__ = '2019/9/19 下午1:20'
 
-from flask import jsonify
+from flask import jsonify, render_template
 from . import api
 
 
-@api.route('/index')
+@api.route('/')
 def index():
-    return jsonify({"code":200, "msg": "okkkk"})
+    return render_template("index.html")
