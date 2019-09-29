@@ -1328,3 +1328,1912 @@ INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 00:52:12] "GET /api/users/1 HTT
 INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 00:52:16] "GET /api/users/1 HTTP/1.1" 200 -
 INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 00:52:42] "OPTIONS /api/users/1 HTTP/1.1" 200 -
 INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 00:52:43] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:18:35] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:18:35] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:18:37] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:18:37] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:25:27] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:25:27] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:25:27] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:25:27] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:09] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:09] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:13] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:13] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:14] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:14] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:17] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:18] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:18] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:21] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:22] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:24] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:24] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:26] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:42] "OPTIONS /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:43] "POST /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:46] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:46] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:46] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:46] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:26:47] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/register.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:27:20] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:27:20] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:27:20] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:27:20] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:27:29] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:27:29] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:27:30] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:27:30] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:27:31] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:27:41] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:27:41] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:27:41] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:27:41] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:27:42] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:28:29] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:28:29] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:28:31] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:28:32] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:28:33] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:28:49] "OPTIONS /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:28:49] "POST /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:29:19] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:29:19] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:29:19] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:29:19] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:29:19] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:29:23] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:29:28] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:29:28] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:29:28] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:29:28] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:29:31] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:32:34] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:32:34] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:32:35] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:32:35] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:32:39] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:32:44] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:32:44] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:32:44] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:32:44] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:32:45] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:33:31] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:33:31] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:33:34] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:33:34] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:33:35] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:34:02] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:34:02] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:34:22] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:34:22] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:34:22] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:34:22] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:34:25] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:42:28] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:42:28] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:42:29] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:42:29] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:42:29] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:42:46] "OPTIONS /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:42:46] "POST /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/register.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:44:03] "OPTIONS /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:44:04] "POST /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/register.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:44:49] "OPTIONS /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:44:49] "POST /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:45:21] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:45:21] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:45:21] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:45:21] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:45:21] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:46:07] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:46:07] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:46:09] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:46:09] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:46:12] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:46:14] "OPTIONS /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:46:14] "POST /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/register.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:46:44] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:46:44] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:46:44] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:46:44] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:47:12] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:47:12] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:48:00] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:48:00] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:48:00] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:48:00] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:48:02] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:48:08] "OPTIONS /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:48:08] "POST /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:48:58] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:48:58] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:49:31] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:49:31] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:49:31] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:49:31] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:49:38] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:49:38] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:49:41] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:49:54] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:49:54] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:49:58] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:50:08] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:50:08] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:50:13] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:50:14] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:50:14] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:50:14] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:50:14] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:50:53] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:50:53] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:50:55] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:50:55] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:50:58] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:51:03] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:51:03] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:51:03] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:51:03] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:51:43] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:51:43] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:51:46] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:51:47] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:51:47] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:51:54] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:51:54] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:51:56] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:51:57] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:26] "OPTIONS /api/users/signin HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:26] "POST /api/users/signin HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:26] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:26] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:29] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:29] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:33] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:33] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:38] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:38] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:41] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:41] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:41] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:43] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:43] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:44] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:44] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:52] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:52] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:53] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:53] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 01:52:54] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:12:20] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:12:20] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:13:46] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:13:46] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:13:48] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:14:08] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:14:08] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:17:05] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:17:06] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:17:23] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:17:23] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:17:27] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:22:19] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:22:19] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:22:19] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:22:19] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:22:31] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:22:31] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:23:40] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:23:40] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:23:55] "OPTIONS /api/users/signin HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:23:55] "POST /api/users/signin HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:23:55] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:23:55] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:00] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:00] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:01] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:01] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:10] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:10] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:10] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:10] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:12] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:16] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:16] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:17] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:17] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:18] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:26] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:26] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:26] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:26] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:33] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:24:33] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:26:52] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:26:52] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:26:55] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 02:26:56] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 08:27:54] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 08:27:54] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 08:27:55] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 08:27:56] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 11:24:51] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 11:24:52] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 11:24:53] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 11:24:53] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 11:25:02] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 11:25:02] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 11:45:39] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 11:45:39] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 11:45:39] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 11:45:39] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 11:45:40] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 11:45:44] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 11:45:44] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 11:45:45] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 11:45:45] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/register.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/register.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/register.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/register.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/constans.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/register.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/register.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:12:31] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:12:31] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:23:33] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:23:33] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:23:34] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:23:34] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:23:35] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:24:50] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:24:51] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:26:04] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:26:04] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:26:09] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:26:10] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:26:12] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:26:12] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:26:49] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:26:49] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:27:27] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:27:27] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:27:28] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:27:28] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:27:54] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:27:54] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:27:54] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:27:54] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:27:58] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:28:22] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:28:22] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:29:07] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:29:07] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:31:01] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:31:01] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:34:00] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:34:01] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:34:08] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:34:08] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:34:08] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:34:08] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:34:13] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:34:13] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:34:18] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:34:18] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:34:49] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:34:49] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:36:38] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:36:38] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:36:38] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:36:38] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:36:39] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:36:53] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:36:53] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:36:53] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:36:53] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:36:54] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:36:55] "OPTIONS /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:36:56] "POST /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:37:00] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:37:00] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:37:00] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:37:00] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:37:01] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:40:17] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:40:17] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:42:20] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:42:20] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:42:48] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:42:48] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:43:03] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:43:03] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:43:14] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:43:14] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:43:22] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:43:22] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:43:31] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:43:31] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:43:52] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:43:52] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:44:35] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:44:35] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:45:33] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:45:33] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/register.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:46:09] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:46:09] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:46:10] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:46:10] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:46:10] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:46:46] "OPTIONS /api/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:46:46] "POST /api/users/avatar HTTP/1.1" 500 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/register.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:48:39] "OPTIONS /api/users/avatar HTTP/1.1" 200 -
+ERROR register.py:306 'NoneType' object has no attribute 'read'
+ERROR register.py:312 local variable 'avatar' referenced before assignment
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:48:39] "POST /api/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:51:31] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:51:32] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:51:47] "OPTIONS /api/users/avatar HTTP/1.1" 200 -
+ERROR register.py:306 'NoneType' object has no attribute 'read'
+ERROR register.py:312 local variable 'avatar' referenced before assignment
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 12:51:47] "POST /api/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:08:35] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:08:35] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:14:24] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:14:24] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:14:24] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:14:24] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:14:25] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:14:31] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:14:31] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:14:31] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:14:31] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:14:32] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:14:35] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:19:14] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:19:14] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:21:44] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:21:44] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:22:14] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:22:14] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:26:29] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:26:29] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:28:20] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:28:20] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:34:07] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:34:07] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:34:58] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:34:58] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:35:20] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:35:20] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:35:28] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:35:28] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:37:06] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:37:06] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:37:33] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:37:34] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:38:36] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:38:36] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:38:42] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:38:42] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:38:42] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:38:42] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:38:44] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:39:03] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:39:03] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:39:07] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:39:07] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:39:07] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:39:12] "OPTIONS /api/users/avatard HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:39:27] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:39:27] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:39:49] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:39:49] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:39:49] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:39:49] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:39:50] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:39:53] "OPTIONS /api/users/avatar HTTP/1.1" 200 -
+DEBUG connectionpool.py:959 Starting new HTTPS connection (1): uc.qbox.me:443
+DEBUG connectionpool.py:437 https://uc.qbox.me:443 "GET /v1/query?ak=DKBwZ3jYFmRUitplgBTkvgvZS5tel4h6HBtZHhHX&bucket=communities HTTP/1.1" 200 260
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:39:54] "POST /api/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:45:58] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:45:58] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:46:21] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:46:21] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:46:32] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:46:32] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:47:11] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:47:11] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:47:36] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:47:36] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:47:42] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:47:42] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:47:42] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:47:42] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:47:43] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:47:48] "OPTIONS /api/users/avatar HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:47:48] "POST /api/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:48:11] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:48:11] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:48:11] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:48:11] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:48:11] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:50:06] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:50:06] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:50:09] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:50:09] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:50:10] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:50:11] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:50:11] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:50:12] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:50:12] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:50:18] "OPTIONS /api/users/avatar HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:50:26] "POST /api/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:50:49] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:50:49] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:50:54] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:50:54] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:51:43] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:51:43] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:51:51] "OPTIONS /api/users/avatar HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:51:54] "POST /api/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:52:01] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:52:01] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:52:01] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:52:01] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:52:02] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:52:04] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:52:04] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:52:04] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:52:14] "OPTIONS /api/users/avatar HTTP/1.1" 200 -
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:52:14] "POST /api/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:54:02] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:54:02] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:55:41] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:55:41] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:56:19] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:56:19] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:56:25] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:56:25] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:56:32] "OPTIONS /api/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:56:32] "POST /api/users/avatar HTTP/1.1" 401 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:56:51] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:56:51] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:56:51] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:56:51] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:56:51] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:57:05] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:57:05] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:57:13] "OPTIONS /api/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:57:13] "POST /api/users/avatar HTTP/1.1" 401 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:57:19] "OPTIONS /api/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:57:19] "POST /api/users/avatar HTTP/1.1" 401 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:58:43] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:58:43] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:58:48] "OPTIONS /api/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:58:48] "POST /api/users/avatar HTTP/1.1" 401 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:59:00] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:59:00] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:59:03] "OPTIONS /api/users/avatar HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:59:04] "POST /api/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:59:14] "OPTIONS /api/users/avatar HTTP/1.1" 200 -
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:59:14] "POST /api/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:59:17] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:59:17] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:59:17] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:59:17] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 13:59:22] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:00:06] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:00:06] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:00:07] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:00:22] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:00:22] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:00:22] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:00:25] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:00:26] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:00:26] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:00:46] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:00:46] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:01:34] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:01:34] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:02:25] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:02:25] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:02:31] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:02:31] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:02:31] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:02:31] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:02:32] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:02:40] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:02:40] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:02:42] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:02:42] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:02:44] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:02:46] "OPTIONS /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:02:47] "POST /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:04:01] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:04:01] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:04:05] "OPTIONS /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:04:06] "POST /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:04:46] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:04:46] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:04:47] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:04:47] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:04:49] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:04:50] "OPTIONS /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:04:51] "POST /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:04:54] "POST /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:00] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:00] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:00] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:00] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:03] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:05] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:05] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:06] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:11] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:11] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:17] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:17] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:19] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:19] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:23] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:23] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:24] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:24] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:26] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:31] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:31] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:05:33] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:06:09] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:06:10] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:08:32] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:08:32] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:08:34] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:08:34] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:08:43] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:08:43] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:10:41] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:10:41] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:10:41] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:10:41] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:10:46] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:10:50] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:10:50] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:10:50] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:10:50] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:10:54] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:13:31] "GET /api/sms_codes/18275993803 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:14:06] "OPTIONS /api/users/signup HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:14:07] "POST /api/users/signup HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:17:45] "GET /api/sms_codes/18275993804 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:17:52] "GET /api/sms_codes/18275993804 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:19:20] "GET /api/sms_codes/18275993804 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:19:38] "OPTIONS /api/users/signup HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:19:38] "POST /api/users/signup HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:20:03] "OPTIONS /api/users/signup HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:20:03] "POST /api/users/signup HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:20:29] "GET /api/sms_codes/18275993804 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:20:45] "GET /api/sms_codes/18275993804 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:20:51] "GET /api/sms_codes/18275993804 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:20:56] "GET /api/sms_codes/18275993805 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:21:12] "OPTIONS /api/users/signup HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:21:12] "POST /api/users/signup HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:21:55] "GET /api/sms_codes/18275993805 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:22:12] "GET /api/sms_codes/18275993806 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:22:25] "OPTIONS /api/users/signup HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:22:26] "POST /api/users/signup HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:23:47] "OPTIONS /api/users/signin HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:23:47] "POST /api/users/signin HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:23:47] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:23:47] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:23:57] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:23:57] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:24:19] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:24:19] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:25:12] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:25:12] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:26:26] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:26:26] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:26:26] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:26:26] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:26:28] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:26:28] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:27:10] "OPTIONS /api/users/avatar HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:27:11] "POST /api/users/avatar HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:27:22] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:27:22] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:27:22] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:27:22] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:27:46] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:27:46] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:27:49] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:27:49] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:28:15] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:28:15] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:28:15] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:28:15] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/constans.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/constans.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:31:46] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:31:47] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:31:47] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:31:47] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:31:49] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:31:49] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:32:05] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:32:05] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:32:28] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:32:28] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:32:30] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:32:30] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:32:36] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:32:47] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:32:47] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:32:48] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:32:48] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:32:53] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:33:07] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:33:07] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:33:07] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:33:07] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:33:34] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:33:34] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:33:36] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:33:36] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:33:39] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:33:39] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:33:39] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:33:39] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:33:46] "OPTIONS /api/users/4/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:33:46] "POST /api/users/4/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:34:12] "OPTIONS /api/users/4/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:34:12] "POST /api/users/4/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:34:19] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:34:19] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:34:19] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:34:19] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:34:24] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:34:24] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:34:25] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:34:25] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:34:25] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:34:25] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:34:38] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:34:38] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:34:41] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:34:41] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:35:16] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:35:16] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:35:21] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:35:21] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:35:21] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:35:21] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:35:30] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:35:30] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:43:49] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:43:49] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:43:51] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:43:51] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:43:53] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:43:53] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:44:26] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:44:26] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:44:29] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:44:29] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:44:29] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:44:29] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:44:37] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:44:37] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:44:47] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:44:47] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:44:47] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:44:47] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:44:59] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:44:59] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:49:29] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:49:29] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:50:26] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:50:26] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:50:27] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:50:27] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:52:22] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:52:22] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:52:23] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:52:23] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:52:24] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:53:57] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:53:57] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:53:57] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:53:57] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:54:01] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:54:03] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:54:03] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:54:08] "OPTIONS /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 14:54:08] "GET /api/users/4 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:01:02] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:01:02] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:01:03] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:01:14] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:01:14] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:07:13] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:07:13] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:10:53] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:10:53] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:10:54] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:10:54] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:10:56] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:10:58] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:10:58] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:10:58] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:10:58] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:11:27] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:11:27] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:12:42] "POST /api/test HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:42:51] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:42:53] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:54:26] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:54:26] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:54:30] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:54:33] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:54:33] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:54:36] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:54:47] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:54:47] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:54:48] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:54:48] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:54:49] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:55:09] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:55:09] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:55:10] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:55:19] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:55:19] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:55:25] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:55:25] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:55:46] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:55:46] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:57:32] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:57:32] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:57:41] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:57:41] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:58:58] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:58:58] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 15:59:00] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:01:02] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:01:02] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:01:56] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:01:56] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:02:11] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:02:11] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:02:14] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:08:16] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:08:16] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:17:25] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:17:25] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:17:26] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:17:26] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:17:27] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:17:32] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:17:32] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:17:32] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:17:32] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:17:53] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:17:53] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:17:56] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:17:57] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:17:57] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:17:58] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:17:58] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:17:59] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:17:59] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:18:00] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:18:02] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:18:02] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:18:04] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:18:04] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:18:05] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:18:05] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:18:06] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:18:06] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:18:07] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:18:07] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:18:10] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:18:10] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:18:10] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:18:10] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:18:11] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:27:44] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:27:44] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:27:46] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:27:46] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:27:49] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:28:03] "OPTIONS /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:28:03] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 16:28:04] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/utils/image_storage.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 18:18:14] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 18:18:15] "POST /api/post/publish HTTP/1.1" 500 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 18:20:28] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 18:20:28] "POST /api/post/publish HTTP/1.1" 500 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 18:22:02] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+ERROR post.py:43 must be str, not bytes
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 18:22:03] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 18:23:09] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+ERROR post.py:43 must be str, not bytes
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 18:23:09] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 18:28:40] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+ERROR post.py:45 must be str, not bytes
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 18:28:41] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 18:29:09] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 18:29:09] "POST /api/post/publish HTTP/1.1" 500 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 18:29:49] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+ERROR post.py:45 'str' object has no attribute 'decode'
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 18:29:50] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 18:30:12] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 18:30:15] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 19:28:18] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 19:28:18] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 20:10:29] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 20:10:29] "POST /api/post/publish HTTP/1.1" 401 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 20:10:34] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 20:10:35] "POST /api/post/publish HTTP/1.1" 401 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 20:10:40] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 20:10:40] "POST /api/post/publish HTTP/1.1" 401 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 20:26:18] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 20:26:19] "POST /api/post/publish HTTP/1.1" 401 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 20:42:01] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 20:42:02] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 20:42:27] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 20:42:27] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 20:43:17] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [27/Sep/2019 20:43:17] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:15:55] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:15:56] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:16:33] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:16:33] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:20:02] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:20:03] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:25:30] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:25:31] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:26:08] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:26:11] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:34:53] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:34:53] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:34:59] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:35:03] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:42:50] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:42:51] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:43:25] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:43:25] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:43:45] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:43:53] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:47:29] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:47:30] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:47:46] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:47:46] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:47:53] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:48:09] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:49:39] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 08:49:39] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 09:47:57] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 09:47:58] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 09:51:19] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 09:51:21] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 10:00:17] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 10:00:18] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 10:11:30] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 10:12:45] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 10:12:53] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 10:14:00] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 10:14:06] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 10:45:45] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 10:45:47] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 10:46:04] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 10:46:04] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 10:55:54] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 10:55:55] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:02:52] "OPTIONS /api/post/publish HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:02:58] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:12:02] "POST /api/users/signin HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:12:02] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:12:21] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:12:38] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:12:51] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:12:51] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:12:53] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:13:32] "POST /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:13:42] "POST /api/users/1/edit HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:13:45] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:13:45] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:13:46] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:14:00] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:14:00] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:14:02] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:14:14] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:14:27] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:14:37] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:14:38] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:14:38] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:14:43] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:27:48] "OPTIONS /api/post/publish/image HTTP/1.1" 200 -
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:27:49] "POST /api/post/publish/image HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:27:56] "OPTIONS /api/post/publish/image HTTP/1.1" 200 -
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): upload-z2.qiniu.com:80
+ERROR post.py:36 上传失败
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:28:56] "POST /api/post/publish/image HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:29:41] "OPTIONS /api/post/publish/image HTTP/1.1" 200 -
+DEBUG connectionpool.py:225 Starting new HTTP connection (2): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:29:41] "POST /api/post/publish/image HTTP/1.1" 200 -
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:29:44] "POST /api/post/publish/image HTTP/1.1" 200 -
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:29:46] "POST /api/post/publish/image HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:32:58] "OPTIONS /api/post/publish/image HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:32:59] "POST /api/post/publish/image HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:33:44] "OPTIONS /api/post/publish/image HTTP/1.1" 200 -
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:33:44] "POST /api/post/publish/image HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:34:02] "OPTIONS /api/post/publish/image HTTP/1.1" 200 -
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:34:02] "POST /api/post/publish/image HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:34:10] "OPTIONS /api/post/publish/image HTTP/1.1" 200 -
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:34:10] "POST /api/post/publish/image HTTP/1.1" 200 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:36:18] "OPTIONS /api/post/publish/image HTTP/1.1" 200 -
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:36:18] "POST /api/post/publish/image HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:37:44] "OPTIONS /api/post/publish/image HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:37:44] "POST /api/post/publish/image HTTP/1.1" 405 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:39:45] "OPTIONS /api/post/publish/image HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:39:45] "POST /api/post/publish/image HTTP/1.1" 405 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:40:21] "OPTIONS /api/post/publish/image HTTP/1.1" 200 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:40:21] "POST /api/post/publish/image HTTP/1.1" 400 -
+INFO csrf.py:251 The CSRF token is missing.
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:40:26] "POST /api/post/publish/image HTTP/1.1" 400 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:41:15] "OPTIONS /api/post/publish/image HTTP/1.1" 200 -
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:41:16] "POST /api/post/publish/image HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/__init__.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:41:30] "OPTIONS /api/post/publish/image HTTP/1.1" 200 -
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 11:41:30] "POST /api/post/publish/image HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 12:12:57] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 12:12:58] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 12:12:58] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 12:15:56] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 12:15:57] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 12:15:57] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 12:16:00] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 13:05:38] "POST /api/post/publish/image/ HTTP/1.1" 404 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 13:05:58] "POST /api/post/publish/image HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 13:33:04] "POST /api/post/publish/image HTTP/1.1" 401 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 13:33:34] "POST /api/post/publish/image HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 14:37:06] "POST /api/post/publish/ HTTP/1.1" 404 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 14:37:41] "POST /api/post/publish HTTP/1.1" 500 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 14:39:02] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 14:40:24] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 14:40:38] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 14:40:59] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 14:41:12] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 14:42:08] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 14:46:01] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 14:48:51] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 14:51:32] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 15:08:21] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 15:23:43] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 372-631-225
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 18:21:46] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 18:21:50] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 18:22:28] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 18:25:12] "POST /api/category HTTP/1.1" 500 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/category.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 18:25:42] "POST /api/category HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/category.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 18:30:59] "GET /api/category/1 HTTP/1.1" 500 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/category.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 18:31:14] "GET /api/category/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 18:32:30] "POST /api/category HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/category.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 18:56:55] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 18:56:58] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 18:56:59] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 18:57:00] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 18:57:00] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 18:57:04] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 18:57:12] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 18:57:12] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 18:57:17] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 18:57:22] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 18:57:27] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 19:07:46] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 19:09:11] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 19:10:22] "GET /api/users/1 HTTP/1.1" 200 -
+ERROR post.py:150 Class 'werkzeug.datastructures.FileStorage' is not mapped
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 20:15:45] "POST /api/post/publish HTTP/1.1" 200 -
+ERROR post.py:150 Class 'werkzeug.datastructures.FileStorage' is not mapped
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 20:15:56] "POST /api/post/publish HTTP/1.1" 200 -
+ERROR post.py:150 Class 'werkzeug.datastructures.FileStorage' is not mapped
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 20:15:58] "POST /api/post/publish HTTP/1.1" 200 -
+ERROR post.py:150 Class 'werkzeug.datastructures.FileStorage' is not mapped
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 20:15:59] "POST /api/post/publish HTTP/1.1" 200 -
+ERROR post.py:150 Class 'werkzeug.datastructures.FileStorage' is not mapped
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 20:15:59] "POST /api/post/publish HTTP/1.1" 200 -
+ERROR post.py:150 Class 'werkzeug.datastructures.FileStorage' is not mapped
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 20:17:24] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+ERROR post.py:150 Class 'werkzeug.datastructures.FileStorage' is not mapped
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 20:49:40] "POST /api/post/publish HTTP/1.1" 200 -
+ERROR post.py:150 Class 'werkzeug.datastructures.FileStorage' is not mapped
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 20:49:40] "POST /api/post/publish HTTP/1.1" 200 -
+ERROR post.py:150 Class 'werkzeug.datastructures.FileStorage' is not mapped
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 20:49:41] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+ERROR post.py:150 Class 'werkzeug.datastructures.FileStorage' is not mapped
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 20:50:26] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+DEBUG connectionpool.py:959 Starting new HTTPS connection (1): uc.qbox.me:443
+DEBUG connectionpool.py:437 https://uc.qbox.me:443 "GET /v1/query?ak=DKBwZ3jYFmRUitplgBTkvgvZS5tel4h6HBtZHhHX&bucket=communities HTTP/1.1" 200 260
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 20:52:41] "POST /api/post/publish HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 20:55:57] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:01:37] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:05:58] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:06:59] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:09:11] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:12:28] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:13:01] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:14:33] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:14:37] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:14:56] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:15:03] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:15:52] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:16:35] "POST /api/post/publish HTTP/1.1" 200 -
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:16:43] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:18:42] "POST /api/post/publish HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:21:57] "POST /api/post/publish HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:23:23] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:23:46] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:33:07] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:33:37] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:33:53] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:36:09] "POST /api/post/publish HTTP/1.1" 500 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:44:18] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:45:11] "POST /api/post/publish HTTP/1.1" 500 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:45:33] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:46:05] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:46:12] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:46:23] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:50:21] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:50:38] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:51:01] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:53:20] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 21:55:12] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 22:02:51] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 22:03:05] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 22:04:11] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 22:04:22] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 22:06:19] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 22:06:31] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 22:09:23] "POST /api/post/publish HTTP/1.1" 200 -
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 22:09:30] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 22:29:41] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 22:30:12] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 22:49:52] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 22:49:56] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 22:50:07] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 23:18:17] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 23:18:22] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 23:18:22] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [28/Sep/2019 23:18:27] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 08:24:20] "GET /api/category/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 09:28:24] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 09:28:25] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 09:32:39] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 09:32:41] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 09:47:03] "POST /api/category HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/category.py', reloading
+INFO _internal.py:122  * Restarting with stat
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 09:49:56] "POST /api/category HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 10:05:04] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 10:05:06] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 12:22:42] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 12:26:17] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 12:26:58] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 12:38:55] "POST /api/post/1 HTTP/1.1" 405 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 12:38:58] "GET /api/post/1 HTTP/1.1" 500 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 12:42:51] "GET /api/post/1 HTTP/1.1" 500 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 12:44:02] "GET /api/post/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 12:49:59] "GET /api/users/1 HTTP/1.1" 200 -
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 12:51:04] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 12:52:37] "GET /api/post/1 HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 12:55:21] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 12:57:49] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 12:58:34] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:04:17] "POST /api/post/publish HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:06:35] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/models.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:09:29] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:09:32] "GET /api/users/1 HTTP/1.1" 200 -
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:09:58] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:11:02] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:11:07] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+DEBUG retry.py:229 Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG connectionpool.py:225 Starting new HTTP connection (1): up-z2.qiniu.com:80
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:16:11] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:16:57] "GET /api/post/1 HTTP/1.1" 200 -
+DEBUG connectionpool.py:266 Resetting dropped connection: up-z2.qiniu.com
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+DEBUG connectionpool.py:437 http://up-z2.qiniu.com:80 "POST / HTTP/1.1" 200 76
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:18:33] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122  * Detected change in '/home/option/PycharmProjects/community/community/api/post.py', reloading
+INFO _internal.py:122  * Restarting with stat
+WARNING _internal.py:122  * Debugger is active!
+INFO _internal.py:122  * Debugger PIN: 260-847-072
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:22:29] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:22:31] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:22:31] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:50:17] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:50:17] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:50:49] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:50:49] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:51:05] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:51:05] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:51:07] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:51:09] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:51:12] "POST /api/post/publish HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:54:44] "GET /api/users/1 HTTP/1.1" 200 -
+INFO _internal.py:122 127.0.0.1 - - [29/Sep/2019 13:54:47] "GET /api/users/1 HTTP/1.1" 200 -

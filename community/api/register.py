@@ -6,7 +6,7 @@ import re
 import base64
 
 from sqlalchemy.exc import IntegrityError
-from flask import current_app, jsonify, make_response, request, session
+from flask import current_app, jsonify, make_response, request, session, g
 
 from community.utils.response_code import RET
 from community import redis_store, db
@@ -14,6 +14,8 @@ from community.models import User
 from community.api import api
 from community import constans
 from community.task.sms.tasks import send_sms
+from community.utils.image_storage import storage
+from community.constans import QINIU_DOMIN_PREFIX
 from .auth import token_auth
 
 
@@ -260,7 +262,8 @@ def user_edit_profile(user_id):
     username = req_dict.get('username')
     signature = req_dict.get("signature")
     value = str(req_dict.get('value'))
-    print(username, signature, value)
+    print('value: %s' % value)
+
     if not all([username, signature, value]):
         return jsonify(errno=RET.PARAMERR, errmsg="参数不完整", data='')
 
@@ -282,3 +285,41 @@ def user_edit_profile(user_id):
         return jsonify(errno=RET.DATAERR, errmsg='保存数据库失败', data='')
     return jsonify(errno=RET.OK, errmsg='操作成功', data=user.to_dict())
 
+
+@api.route('/users/avatar', methods=['POST'])
+@token_auth.login_required
+def edit_user_avatar():
+    """
+    修改用户头像
+    :return: {avatar_url: str}
+    """
+    user = g.current_user
+    print('*'*20)
+    print(user)
+    if user is None:
+        return jsonify(errno=RET.USERERR, errmsg='用户未登录', data='')
+    try:
+        avatar = request.files.get('avatar').read()
+        print('/'*20)
+        print(avatar)
+    except Exception as e:
+        current_app.logger.error(e)
+        jsonify(errno=RET.PARAMERR, errmsg='参数缺失', data='')
+
+    try:
+        key = storage(avatar)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.THIRDERR, errmsg='上传第三方异常', data='')
+
+    user.avatar_url = key
+    try:
+        db.session.commit()
+    except Exception as e:
+        db.session.rollback()
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DATAERR, errmsg='保存头像失败', data='')
+    data = {
+        'avatar_url': QINIU_DOMIN_PREFIX + key
+    }
+    return jsonify(errno=RET.OK, errmsg='上传成功', data=data)

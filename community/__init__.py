@@ -20,7 +20,6 @@ from community.utils.common import ReConvertor
 from flask_session import Session
 
 db = SQLAlchemy()
-cors = CORS()
 # redis_store: StrictRedis = None
 redis_store = None  # type: StrictRedis
 
@@ -49,10 +48,13 @@ def create_app(config_name):
 
     # 加载配置
     app.config.from_object(config[config_name])
+    app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 上传文件最大为16M
     # 初始化数据库, 需要被manage.py外界访问，需要提取到外面
     # db = SQLAlchemy(app)
     db.init_app(app)
 
+    # 处理跨域
+    CORS(app, supports_credentials=True)
     # 初始化redis，这个StrictRedis是用来保存项目中的K-V，并不是保存session的redis
     global redis_store
     redis_store = StrictRedis(host=config[config_name].REDIS_HOST, port=config[config_name].REDIS_PORT)
@@ -114,10 +116,13 @@ def create_app(config_name):
     # @app.after_request
     # def after_request(response):
     #     # 通过flask-wtf中生成csrf
-    #     csrf_token = generate_csrf()
+    #     # csrf_token = generate_csrf()
     #     # 设置cookie
-    #     response.set_cookie("csrf_token", csrf_token)
+    #     # response.set_cookie("csrf_token", csrf_token)
     #     # 返回被装饰后的response
+    #
+    #     response.headers['Access-Control-Allow-Origin'] = '*'
+    #     response.headers['Access-Control-Allow-Methods'] = 'GET,POST'
     #     return response
 
     # 注册蓝图, 如果下面的import放在上面的话，那么卡启动的时候就会报错
@@ -125,8 +130,5 @@ def create_app(config_name):
     # 这个循环导入，就会还没定义这个redis_store，因此以后何时注册蓝图，何时导入这个蓝图，蓝图的导入不要放在顶部
     from community.api import api
     app.register_blueprint(api, url_prefix="/api")
-
-    # 处理跨域
-    cors.init_app(app)
 
     return app
