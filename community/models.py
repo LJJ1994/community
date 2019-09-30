@@ -8,6 +8,7 @@ import jwt
 
 from . import db
 from .constans import USER_DEFAULT_LOCATION, QINIU_DOMIN_PREFIX, USER_DEFAULT_AVATAR
+from community.utils.time_format import time_since
 
 
 class BaseModel(object):
@@ -68,21 +69,6 @@ class User(BaseModel, db.Model):
         default='Aliens'
     )
 
-    @property
-    def password(self):
-        raise AttributeError(u"不能访问该属性")
-
-    @password.setter
-    def password(self, value):
-        self.password_hash = generate_password_hash(value)
-
-    def check_password(self, passwd):
-        return check_password_hash(self.password_hash, passwd)
-
-    def update_token(self):
-        self.last_seen = datetime.now()
-        db.session.add(self)
-
     def to_dict(self):
         return {
             "id": self.id,
@@ -97,6 +83,31 @@ class User(BaseModel, db.Model):
             "followers_count": self.followers_count if self.followers_count else 0,
             "followed_count": self.followed_count if self.followed_count else 0
         }
+
+    def to_index(self):
+        posts = []
+        post_list = self.post_list.order_by(Post.create_time.desc()).all()
+        for post in post_list:
+            posts.append(post.to_dict())
+
+        user = self.to_dict()
+        user["post_list"] = posts
+        return user
+
+    @property
+    def password(self):
+        raise AttributeError(u"不能访问该属性")
+
+    @password.setter
+    def password(self, value):
+        self.password_hash = generate_password_hash(value)
+
+    def check_password(self, passwd):
+        return check_password_hash(self.password_hash, passwd)
+
+    def update_token(self):
+        self.last_seen = datetime.now()
+        db.session.add(self)
 
     # 给登录成功的用户颁发有时限的token
     def get_jwt(self, expire=60*60):
@@ -130,7 +141,8 @@ class Post(BaseModel, db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     content = db.Column(db.Text)
-    clicks = db.Column(db.Integer, default=0)
+    clicks = db.Column(db.Integer, default=0)  # 浏览数
+    like_counts = db.Column(db.Integer, default=0)  # 点赞数
     category_id = db.Column(db.Integer, db.ForeignKey('cm_category.id'))
     user_id = db.Column(db.Integer, db.ForeignKey('cm_user.id'))
     comments = db.relationship('Comment', lazy='dynamic')  # 当前帖子的所有评论
@@ -138,17 +150,33 @@ class Post(BaseModel, db.Model):
 
     def to_dict(self):
         post_dict = {
+            "user_id": self.user_id,
+            "username": User.query.filter_by(id=self.user_id).first().nick_name,
+            "avatar_url": QINIU_DOMIN_PREFIX + User.query.filter_by(id=self.user_id).first().avatar_url,
             "post_id": self.id,
             "content": self.content,
             "clicks": self.clicks,
-            "category_id": self.category_id,
-            "user_id": self.user_id,
-            "comments": ''
+            "like_counts": self.like_counts,
+            "comments_counts": self.comments.count(),  # 评论数
+            "create_time": time_since(self.create_time)
         }
+
+        # 获取image url
         img_url = []
         for img in self.images:
             img_url.append(QINIU_DOMIN_PREFIX + img.url)  # 这里存储的是七牛返回过来的key
         post_dict["img_url"] = img_url
+
+        # 获取category
+        # 前面业务逻辑中可能有: 用户发表帖子没有选择话题分类的情况
+        if self.category_id:
+            category = Category.query.filter_by(id=self.category_id).first()
+            post_dict['category_name'] = category.name
+            post_dict['category_id'] = category.id
+        else:
+            post_dict['category_name'] = ''
+            post_dict['category_id'] = ''
+
         return post_dict
 
 
@@ -177,6 +205,18 @@ class Comment(BaseModel, db.Model):
     parent = db.relationship('Comment', remote_side=[id])  # 自关联
     like_count = db.Column(db.Integer, default=0)  # 点赞数
     # images = db.relationship('Images', backref='comment')
+
+    def to_dict(self):
+        base = {
+            'comment_id': self.id,
+            'user_id': self.id,
+            'post_id': self.post_id,
+            'content': self.content,
+            'parent_id': self.parent_id,
+            'parent_comment': self.parent.to_dict(),
+            'like_count': self.like_count
+        }
+        return base
 
 
 class CommentLike(BaseModel, db.Model):

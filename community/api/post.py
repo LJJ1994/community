@@ -10,7 +10,7 @@ from flask import current_app, jsonify, make_response, request, session, g
 
 from community.utils.response_code import RET
 from community import redis_store, db
-from community.models import User, Post, Images, Category
+from community.models import User, Post, Images, Category, Comment
 from community.api import api
 from community import constans
 from community.task.sms.tasks import send_sms
@@ -208,6 +208,41 @@ def get_user_post(user_id):
     return jsonify(errno=RET.OK, errmsg='成功', data=data_dict)
 
 
+@api.route('/post/<int:post_id>/detail', methods=['GET'])
+def get_one_post(post_id):
+    """
+    获取某个具体的帖子
+    :param post_id:
+    :return: dict
+    """
+    try:
+        post_id = int(post_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.PARAMERR, errmsg='参数错误', data='')
+    try:
+        post = Post.query.get(post_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DATAERR, errmsg='查询数据库失败', data='')
+    if post is None:
+        return jsonify(errno=RET.NODATA, errmsg='没有该数据', data='')
+
+    try:
+        comments = Comment.query.filter_by(post_id=post.id).all()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DATAERR, errmsg='查询该帖子的评论失败', data='')
+
+    data = post.to_dict()
+    comments_list = []
+    for comment in comments:
+        comments_list.append(comment.to_dict())
+    data['comments_list'] = comments_list
+
+    return jsonify(errno=RET.OK, errmsg='成功', data=data)
+
+
 @api.route('/post/delete/<int:post_id>', methods=['POST'])
 @token_auth.login_required
 def delete_post(post_id):
@@ -229,3 +264,21 @@ def delete_post(post_id):
         current_app.logger.error(e)
         return jsonify(errno=RET.DBERR, errmsg='删除失败', data='')
     return jsonify(errno=RET.OK, errmsg='删除成功', data='')
+
+
+@api.route('/post', methods=['GET'])
+def get_post_list():
+    """
+    获取首页所有的帖子
+    :return: dict
+    """
+    try:
+        posts = Post.query.order_by(Post.create_time.desc()).all()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DATAERR, errmsg='获取数据异常', data='')
+
+    post_list = []
+    for post in posts:
+        post_list.append(post.to_dict())
+    return jsonify(errno=RET.OK, errmsg='成功', data=post_list)

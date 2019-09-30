@@ -63,3 +63,21 @@ def get_category(category_id):
         return jsonify(errno=RET.DATAERR, errmsg='数据库查询异常')
     data = category.to_base()
     return jsonify(errno=RET.OK, errmsg='OK', data=data)
+
+
+@api.route("/category", methods=['GET'])
+def get_category_list():
+    """
+    获取所有分类
+    :return: dict
+    """
+    try:
+        categories = Category.query.all()
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DATAERR, errmsg='数据库异常', data='')
+
+    category_list = []
+    for category in categories:
+        category_list.append(category.to_base())
+    return jsonify(errno=RET.OK, errmsg='成功', data=category_list)

@@ -10,7 +10,7 @@ from flask import current_app, jsonify, make_response, request, session, g
 
 from community.utils.response_code import RET
 from community import redis_store, db
-from community.models import User
+from community.models import User, Post
 from community.api import api
 from community import constans
 from community.task.sms.tasks import send_sms
@@ -239,6 +239,14 @@ def get_user_info(user_id):
         return jsonify(errno=RET.PARAMERR, errmsg="数据库查询失败", data="")
 
     data = user.to_dict()
+
+    # 获取个人详情页的所有帖子,按时间进行排序，发表最早的在前面
+    posts = []
+    post_list = Post.query.filter_by(user_id=user.id).order_by(Post.create_time.desc()).all()
+    for post in post_list:
+        posts.append(post.to_dict())
+    data["post_list"] = posts
+
     return jsonify(errno=RET.OK, errmsg="成功", data=data)
 
 
