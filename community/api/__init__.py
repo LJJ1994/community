@@ -9,4 +9,4 @@ from flask_cors import CORS
 api = Blueprint('api', __name__)
 CORS(api)
 
-from . import index, auth, token, register, post, category
+from . import index, auth, token, user, post, category, comments

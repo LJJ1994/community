@@ -209,12 +209,14 @@ def get_user_post(user_id):
 
 
 @api.route('/post/<int:post_id>/detail', methods=['GET'])
+@token_auth.login_required
 def get_one_post(post_id):
     """
     获取某个具体的帖子
     :param post_id:
     :return: dict
     """
+    user = g.current_user
     try:
         post_id = int(post_id)
     except Exception as e:
@@ -227,6 +229,15 @@ def get_one_post(post_id):
         return jsonify(errno=RET.DATAERR, errmsg='查询数据库失败', data='')
     if post is None:
         return jsonify(errno=RET.NODATA, errmsg='没有该数据', data='')
+    try:
+        other = post.author  # 从Post反向查询该post所属的用户
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.USERERR, errmsg='查询该帖子关联用户失败')
+
+    is_followed = False
+    if other in user.followed:
+        is_followed = True
 
     try:
         comments = Comment.query.filter_by(post_id=post.id).all()
@@ -239,6 +250,7 @@ def get_one_post(post_id):
     for comment in comments:
         comments_list.append(comment.to_dict())
     data['comments_list'] = comments_list
+    data['is_followed'] = is_followed
 
     return jsonify(errno=RET.OK, errmsg='成功', data=data)
 
@@ -267,11 +279,15 @@ def delete_post(post_id):
 
 
 @api.route('/post', methods=['GET'])
+@token_auth.login_required
 def get_post_list():
     """
     获取首页所有的帖子
     :return: dict
     """
+    print(request.remote_addr)
+    user = g.current_user
+    print(user)
     try:
         posts = Post.query.order_by(Post.create_time.desc()).all()
     except Exception as e:
@@ -280,5 +296,60 @@ def get_post_list():
 
     post_list = []
     for post in posts:
-        post_list.append(post.to_dict())
+        base_dict = post.to_dict()
+        if post.is_liked_by(user):
+            base_dict.update({"is_liked": 1})
+        else:
+            base_dict.update({"is_liked": 0})
+        post_list.append(base_dict)
     return jsonify(errno=RET.OK, errmsg='成功', data=post_list)
+
+
+@api.route('/post/<int:post_id>/like', methods=['GET'])
+@token_auth.login_required
+def like_post(post_id):
+    """
+    给某个帖子点赞/取消赞
+    :param post_id
+    :return: is_liked:1 表示点赞成功  2. 表示取消赞成功
+    """
+    user = g.current_user
+
+    if not int(post_id):
+        return jsonify(errno=RET.PARAMERR, errmsg='参数错误')
+
+    try:
+        post = Post.query.get(post_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DATAERR, errmsg='查询帖子出错')
+    if not post:
+        return jsonify(errno=RET.DATAEXIST, errmsg='帖子不存在')
+
+    if not post.is_liked_by(user):  # 如果没有被点赞
+        try:
+            post.liked_by(user)
+            post.author.like += 1
+            post.like_counts += 1
+            db.session.add(post)
+            db.session.commit()
+        except Exception as e:
+            current_app.logger.error(e)
+            db.session.rollback()
+            return jsonify(errno=RET.DATAERR, errmsg='数据库操作失败')
+
+        return jsonify(errno=RET.OK, errmsg='点赞成功', is_liked=1)
+    else:  # 如果点过赞了
+        post.likers.remove(user)
+        post.author.like -= 1
+        post.like_counts -= 1
+        db.session.add(post)
+
+        try:
+            db.session.commit()
+        except Exception as e:
+            current_app.logger.error(e)
+            db.session.rollback()
+            return jsonify(errno=RET.DATAERR, errmsg='数据库操作失败')
+
+        return jsonify(errno=RET.OK, errmsg='取赞成功', is_liked=0)

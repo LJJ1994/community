@@ -224,29 +224,36 @@ def login():
 
 
 @api.route("/users/<int:user_id>", methods=["GET"])
+@token_auth.login_required
 def get_user_info(user_id):
     """
-    获取用户信息
+    获取用户信息, 在登录情况下获取的用户信息, 还有未登录的情况,
     :param user_id:
     :return: json
     """
+    user = g.current_user
+    if not user:
+        return jsonify(errno=RET.USERERR, errmsg='当前未登录')
     if user_id is None:
         return jsonify(errno=RET.PARAMERR, errmsg="参数不存在", data="")
     try:
-        user = User.query.filter_by(id=user_id).first()
+        other = User.query.filter_by(id=user_id).first()
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.PARAMERR, errmsg="数据库查询失败", data="")
 
-    data = user.to_dict()
+    is_followed = False
+    if other in user.followed:
+        is_followed = True
+    data = other.to_dict()
 
     # 获取个人详情页的所有帖子,按时间进行排序，发表最早的在前面
     posts = []
-    post_list = Post.query.filter_by(user_id=user.id).order_by(Post.create_time.desc()).all()
+    post_list = Post.query.filter_by(user_id=other.id).order_by(Post.create_time.desc()).all()
     for post in post_list:
         posts.append(post.to_dict())
     data["post_list"] = posts
-
+    data['is_followed'] = is_followed
     return jsonify(errno=RET.OK, errmsg="成功", data=data)
 
 
@@ -331,3 +338,63 @@ def edit_user_avatar():
         'avatar_url': QINIU_DOMIN_PREFIX + key
     }
     return jsonify(errno=RET.OK, errmsg='上传成功', data=data)
+
+
+@api.route('/users/follow', methods=['POST'])
+@token_auth.login_required
+def user_follow():
+    """
+    用户执行关注操作
+    :return: success or failed
+    """
+    user = g.current_user
+    user_id = request.get_json().get('user_id')
+    if not int(user_id):
+        return jsonify(errno=RET.PARAMERR, errmsg='参数错误')
+    try:
+        other = User.query.get(user_id)  # other指要关注的用户
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DATAERR, errmsg='查询该用户失败')
+
+    if user == other:
+        return jsonify(errno=RET.USERERR, errmsg='不能关注自己')
+
+    if other in user.followed:
+        return jsonify(errno=RET.USERERR, errmsg='该用户已关注过')
+    user.followed.append(other)
+    db.session.add(user)
+    db.session.commit()
+
+    # 这里有个关注发送通知
+    data = {
+        'followed_id': other.id,
+        'followed_name': other.nick_name
+    }
+    return jsonify(errno=RET.OK, errmsg='关注成功', data=data)
+
+
+@api.route('/users/unfollow', methods=['POST'])
+@token_auth.login_required
+def user_unfollow():
+    """
+    取消关注用户操作
+    :return: success or failed
+    """
+    user = g.current_user
+    req_dict = request.get_json()
+    other_id = req_dict.get('user_id')
+    if not int(other_id):
+        return jsonify(errno=RET.PARAMERR, errmsg='参数有误')
+    try:
+        other = User.query.get(other_id)
+    except Exception as e:
+        current_app.logger.error(e)
+        return jsonify(errno=RET.DATAERR, errmsg='数据查询失败')
+    if other not in user.followed:
+        return jsonify(errno=RET.USERERR, errmsg='该用户没被关注过')
+    user.followed.remove(other)
+    db.session.add(user)
+    db.session.commit()
+
+    return jsonify(errno=RET.OK, errmsg='取关成功')
