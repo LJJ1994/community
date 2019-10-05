@@ -235,12 +235,8 @@ def get_one_post(post_id):
         current_app.logger.error(e)
         return jsonify(errno=RET.USERERR, errmsg='查询该帖子关联用户失败')
 
-    is_followed = False
-    if other in user.followed:
-        is_followed = True
-
     try:
-        comments = Comment.query.filter_by(post_id=post.id).all()
+        comments = Comment.query.filter_by(post_id=post.id).order_by(Comment.create_time.desc()).all()
     except Exception as e:
         current_app.logger.error(e)
         return jsonify(errno=RET.DATAERR, errmsg='查询该帖子的评论失败', data='')
@@ -248,9 +244,24 @@ def get_one_post(post_id):
     data = post.to_dict()
     comments_list = []
     for comment in comments:
-        comments_list.append(comment.to_dict())
+        base = comment.to_dict()
+        if comment.is_liked_by(user):
+            base.update({'is_liked': 1})  # 1为点赞  0为未点赞
+        else:
+            base.update({'is_liked': 0})
+        comments_list.append(base)
+
+    is_followed = False
+    if other in user.followed:
+        is_followed = True
+
+    liked_post = {"is_liked": 0}
+    if post.is_liked_by(user):
+        liked_post = {"is_liked": 1}
+
     data['comments_list'] = comments_list
     data['is_followed'] = is_followed
+    data.update(liked_post)
 
     return jsonify(errno=RET.OK, errmsg='成功', data=data)
 

@@ -35,6 +35,14 @@ tb_user_post = db.Table(
     db.Column('create_time', db.DateTime, default=datetime.now),  # 帖子创建时间
 )
 
+#  评论和用户的点赞表,多对多关系,所以建个关联表
+comments_likes = db.Table(
+    'comments_likes',
+    db.Column('user_id', db.Integer, db.ForeignKey('cm_user.id')),
+    db.Column('comment_id', db.Integer, db.ForeignKey('comment.id')),
+    db.Column('create_time', db.DateTime, default=datetime.now)
+)
+
 # 用户点赞帖子
 # 一个用户可以点赞多个帖子，一个帖子被多个用户点赞，多对多关系
 post_like = db.Table(
@@ -60,6 +68,8 @@ class User(BaseModel, db.Model):
     avatar_url = db.Column(db.String(512))
     collection_post = db.relationship('Post', secondary=tb_user_post, lazy='dynamic')  # 用户收藏的帖子
     post_list = db.relationship('Post', backref='author', lazy='dynamic', cascade='all, delete-orphan')
+    comments = db.relationship('Comment', backref='author', lazy='dynamic',
+                               cascade='all, delete-orphan')
     last_seen = db.Column(db.DateTime(), default=datetime.now)
     # followers表示用户所有的粉丝
     # 添加了反向引用followed，表示用户都关注了哪些人
@@ -77,6 +87,9 @@ class User(BaseModel, db.Model):
         ),
         default='Aliens'
     )
+
+    def is_followed_by(self, user):
+        return user in self.followers
 
     def to_dict(self):
         return {
@@ -218,23 +231,102 @@ class Comment(BaseModel, db.Model):
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, db.ForeignKey('cm_user.id'), nullable=False)
     post_id = db.Column(db.Integer, db.ForeignKey('post.id'), nullable=False)
-    content = db.Column(db.Text, nullable=False)
+    content = db.Column(db.Text)
     parent_id = db.Column(db.Integer, db.ForeignKey('comment.id'))  # 父评论id
-    parent = db.relationship('Comment', remote_side=[id])  # 自关联
+    parent = db.relationship('Comment',  backref=db.backref('children', cascade='all, delete-orphan'),
+                             remote_side=[id])  # 自关联
     like_count = db.Column(db.Integer, default=0)  # 点赞数
+    likers = db.relationship('User', secondary=comments_likes,
+                             backref=db.backref('liked_comments',
+                                                lazy='dynamic'), lazy='dynamic')
     # images = db.relationship('Images', backref='comment')
+
+    def get_all_children(self):
+        """获取一个评论下的所有子孙评论"""
+        data = set()
+
+        def handle_children(comment):
+            if comment.children:
+                data.update(comment.children)
+                for child in comment.children:
+                    handle_children(child)
+        handle_children(self)
+        return data
+
+    def get_ancestors(self):
+        """获取某个评论的所有祖先"""
+        data = []
+
+        def ancestors(comment):
+            if comment.parent:
+                data.append(comment.parent)
+                ancestors(comment.parent)
+        ancestors(self)
+        return data
 
     def to_dict(self):
         base = {
             'comment_id': self.id,
-            'user_id': self.id,
+            'user_id': self.user_id,
+            'avatar_url': QINIU_DOMIN_PREFIX + self.author.avatar_url,
+            'username': self.author.nick_name,
+            'parent_id': self.parent.id if self.parent else None,
             'post_id': self.post_id,
             'content': self.content,
-            'parent_id': self.parent_id,
-            'parent_comment': self.parent.to_dict(),
-            'like_count': self.like_count
+            'children': [child.to_dict() for child in self.children],
+            'like_count': self.like_count,
+            'create_time': time_since(self.create_time),
         }
+        # 评论的父评论
+        parent = {}
+        if self.parent:
+            parent['parent_id'] = self.parent.id
+            parent['user_id'] = self.parent.author.id,
+            parent['username'] = self.parent.author.nick_name
+            parent['content'] = self.parent.content
+        base['parent'] = parent
         return base
+
+    def to_detail_dict(self):
+        base = {
+            'comment_id': self.id,
+            'user_id': self.user_id,
+            'avatar_url': QINIU_DOMIN_PREFIX + self.author.avatar_url,
+            'username': self.author.nick_name,
+            'parent_id': self.parent.id if self.parent else None,
+            'post_id': self.post_id,
+            'content': self.content,
+            'like_count': self.like_count,
+            'create_time': time_since(self.create_time),
+        }
+        # 评论的父评论
+        parent = {}
+        if self.parent:
+            parent['parent_id'] = self.parent.id
+            parent['user_id'] = self.parent.author.id,
+            parent['username'] = self.parent.author.nick_name
+            parent['content'] = self.parent.content
+        base['parent'] = parent
+        # 获取该评论下的所有子孙评论
+        children = []
+        for child in self.get_all_children():
+            children.append(child.to_dict())
+        base['children'] = children
+        return base
+
+    def is_liked_by(self, user):
+        """判断用户是否对该评论点过赞"""
+        return user in self.likers
+
+    def liked_by(self, user):
+        """点赞"""
+        if not self.is_liked_by(user):
+            self.likers.append(user)
+
+    def unliked_by(self, user):
+        """取消赞"""
+        if self.is_liked_by(user):
+            self.likers.remove(user)
 
 
 class CommentLike(BaseModel, db.Model):
